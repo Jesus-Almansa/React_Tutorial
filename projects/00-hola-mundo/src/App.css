@@ -37,17 +37,17 @@
     transition: .3s ease background-color;
 }
 
-.tw-followCard-button.is-following {
-    border: 1px solid red;
-}
-
 .tw-followCard-button:hover {
-    background-color: #0f5daa;
+    background-color: #1268d8;
     color: white;
 }
 
+.tw-followCard-button.is-following {
+    border: 1px solid #fff;
+}
+
 .tw-followCard-button.is-following:hover {
-    background:red;
+    background:rgb(194, 4, 4);
 }
 
 body {
