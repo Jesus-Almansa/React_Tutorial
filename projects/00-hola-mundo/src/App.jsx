@@ -15,6 +15,11 @@ export function App () {
       userName='rauulpastor' isFollowing={false}>
       Raul Pastor
       </TwitterFollowCard>
+
+      <TwitterFollowCard
+      userName='NicolasVollmer' isFollowing={false}>
+      NicolasVollmer
+      </TwitterFollowCard>
       
     </section>
   )

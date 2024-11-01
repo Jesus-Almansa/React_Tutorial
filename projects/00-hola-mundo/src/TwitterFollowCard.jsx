@@ -1,7 +1,9 @@
+import { useState } from 'react';
 export function TwitterFollowCard ({children, userName, isFollowing }) {
     const formatUserName = (userName) => `@${userName}`;
     const text = isFollowing ? 'Following' : 'Not following';
-    // En el video me he quedado por el 1:38:00
+    const buttonclassName = isFollowing 
+    ? 'tw-followCard-button is-following' : 'tw-followCard-button';
 
   
     return (
@@ -20,7 +22,7 @@ export function TwitterFollowCard ({children, userName, isFollowing }) {
         </header>
   
         <aside>
-          <button className='tw-followCard-button'>
+          <button className={buttonclassName}>
             {text}
           </button> 
         </aside>
