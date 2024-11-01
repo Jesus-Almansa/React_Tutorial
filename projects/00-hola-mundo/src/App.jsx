@@ -10,12 +10,13 @@ export function App () {
         src="https://unavatar.io/github/Jesus-Almansa?ttl=1h" />
         <div className='tw-followCard-info'>
           <strong>Jesus Almansa</strong>
-          <span>@garzonpazorpfield</span>
+          <span className='tw-followCard-infoUserName'>@garzonpazorpfield
+          </span>
         </div>
       </header>
 
       <aside>
-        <button>
+        <button className='tw-followCard-button'>
         Follow
         </button> 
       </aside>
