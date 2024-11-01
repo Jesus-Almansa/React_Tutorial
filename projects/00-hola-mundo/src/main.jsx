@@ -1,8 +1,11 @@
 import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
+import React from 'react'
+import { App } from './App.jsx'
 
 
 const root = createRoot(document.getElementById('root'))
 
-const button = <button onClick={() => alert('Hola mundo')}>Haz click</button>
-root.render(button)
+root.render(
+  <App />
+)
